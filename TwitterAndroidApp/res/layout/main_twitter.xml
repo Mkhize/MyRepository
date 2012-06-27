@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dp"
+	android:background="@drawable/background_twitter">
+		
+	<EditText
+	    android:id="@+id/revieew"
+	    android:layout_width="275dp"
+	    android:layout_height="98dp"
+	    android:layout_marginTop="15dp"
+	    android:hint="Write your review" />
+		
+	<CheckBox
+		android:id="@+id/twitterCheck"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="5dp"
+		android:text="  Twitter"
+		android:textSize="14sp"
+		android:clickable="true"
+		android:focusable="true" 
+		android:button="@drawable/twitter_check"/>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="276dp"
+	    android:layout_height="58dp"
+	    android:layout_marginTop="15dp"
+	    android:background="@drawable/greenbutton"
+	    android:text="    Send    " />
+
+</LinearLayout>

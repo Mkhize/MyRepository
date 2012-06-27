@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, MarathonUIActivity!</string>
+    <string name="app_name">Android Twitter APP</string>
+     <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+
+</resources>
